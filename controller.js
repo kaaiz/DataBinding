@@ -1,5 +1,5 @@
-angular.module("MyFirstApp", []);
-.controller("FirstController", function($scope){
+var app = angular.module("MyFirstApp", []);
+app.controller("FirstController", function($scope){
 	$scope.nombre ="Alvaro";
 	$scope.nuevoComentario = {};
 	$scope.comentarios = [
